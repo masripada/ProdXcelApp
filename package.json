@@ -1,0 +1,16 @@
+{
+  "name": "prodxcel-app",
+  "version": "1.0.0",
+  "description": "Azure Functions app for the ProdXcel Workshop",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
