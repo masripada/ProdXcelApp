@@ -7,7 +7,7 @@ module.exports = async function (context, req) {
             'Content-Type': 'application/json'
         },
         body: {
-            message: 'Hello from Episode 4 of the ProdXcel Workshop!'
+            message: 'Hello from Episode 4 of the ProdXcel-masripada Workshop!'
         }
     };
 };
