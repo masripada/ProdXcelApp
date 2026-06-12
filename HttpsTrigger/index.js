@@ -1,13 +1,18 @@
 module.exports = async function (context, req) {
-    context.log('HTTP trigger function processed a request.');
  
+   
+    const mySecret = process.env.MY_SECRET_KEY;
+    if (!mySecret) {
+        throw new Error("Missing required env var: MY_SECRET_KEY");
+    }
+ 
+    context.log('HTTP trigger function processed a request.');
     context.res = {
         status: 200,
-        headers: {
-            'Content-Type': 'application/json'
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: {
-            message: 'Hello from Episode 4 of the ProdXcel-masripada Workshop!'
+            message: 'Hi from Episode 4.2 of the ProdXcel Workshop!',
+            secret: mySecret
         }
     };
 };
