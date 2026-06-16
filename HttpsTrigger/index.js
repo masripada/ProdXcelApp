@@ -11,7 +11,7 @@ module.exports = async function (context, req) {
         status: 200,
         headers: { 'Content-Type': 'application/json' },
         body: {
-            message: 'Hi from Episode 4.2 of the ProdXcel Workshop!',
+            message: 'Hi from Episode changes 4.2 of the ProdXcel Workshop!',
             secret: mySecret
         }
     };
