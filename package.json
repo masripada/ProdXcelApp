@@ -2,7 +2,6 @@
   "name": "masripadafuncapp",
   "version": "1.0.0",
   "description": "Azure Functions app for the ProdXcel Workshop",
-  "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "func start",
